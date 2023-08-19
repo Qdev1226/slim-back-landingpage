@@ -141,7 +141,7 @@ header .ham-burger.active span:nth-child(2){
 	margin: auto;
 }
 
-Home section
+/* Home section */
 .home{
 	height: 100vh;
 	background-image: url('../images/home.jpg');
