@@ -137,7 +137,7 @@ header .ham-burger.active span:nth-child(2){
 }
 
 .container{
-	/* max-width: 1830px; */
+	max-width: 1280px;
 	margin: auto;
 }
 
@@ -151,7 +151,7 @@ header .ham-burger.active span:nth-child(2){
 	display: flex;
 	position: relative;
 }
-/* .home .go-down{
+.home .go-down{
   position: absolute;
   bottom: 50px;
   width: 26px;
@@ -162,7 +162,7 @@ header .ham-burger.active span:nth-child(2){
   text-align: center;
   left:50%;
   margin-left: -13px;
-} */
+}
 .home .go-down .fa{
 	color:#ffffff;
 	-webkit-animation: goDown 1s ease infinite;
@@ -218,10 +218,8 @@ header .ham-burger.active span:nth-child(2){
 .about .content .box:nth-child(2) .inner{
 	background-color: #c11325;
 }
-.about .content .box .inner .img {
-	height: 100%;
+.about .content .box .inner .img img{
 	width: 100%;
-	min-height: 100%;
 }
 .about .content .box .inner .text{
 	padding:20px;
@@ -471,6 +469,7 @@ header .ham-burger.active span:nth-child(2){
 
 /*Start Today Section*/
 .start-today{
+	
 	background-color: #222222;
 }
 
@@ -483,7 +482,7 @@ header .ham-burger.active span:nth-child(2){
 .start-today .content .box{
 	flex:0 0 50%;
 	max-width: 50%;
-	padding:0px 15px;
+	padding: 20px 0px;
 }
 
 .start-today .content .img img{
@@ -603,6 +602,7 @@ header .ham-burger.active span:nth-child(2){
 	-webkit-display: flex;
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 20px;
 }
 
 .gallery .content .box{
