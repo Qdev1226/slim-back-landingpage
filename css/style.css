@@ -40,11 +40,11 @@ header .logo a{
 	font-weight: 700;
 }
 header .logo a span{
-	color:#c11325;
+	color:#A98054;
 }
 header .nav{
 	position: fixed;
-	background-color: #c11325;
+	background-color: #A98054;
 	width: 280px;
 	top:0;
 	right:0;
@@ -137,7 +137,7 @@ header .ham-burger.active span:nth-child(2){
 }
 
 .container{
-	max-width: 1570px;
+	/* max-width: 1830px; */
 	margin: auto;
 }
 
@@ -199,7 +199,7 @@ header .ham-burger.active span:nth-child(2){
 /*About section*/
 
 .about{
-	padding:80px 0px;
+	padding:40px 0px;
 	background-color:#ffffff;
 }
 
@@ -218,8 +218,10 @@ header .ham-burger.active span:nth-child(2){
 .about .content .box:nth-child(2) .inner{
 	background-color: #c11325;
 }
-.about .content .box .inner .img img{
+.about .content .box .inner .img {
+	height: 100%;
 	width: 100%;
+	min-height: 100%;
 }
 .about .content .box .inner .text{
 	padding:20px;
@@ -349,7 +351,7 @@ header .ham-burger.active span:nth-child(2){
 /*Classes Section*/
 
 .classes{
-	padding:80px 0px 50px;
+	/* padding:80px 0px 50px; */
 	background-color: #ffffff;
 }
 
@@ -507,7 +509,7 @@ header .ham-burger.active span:nth-child(2){
 
 .start-today .content .text .btn{
 	padding: 8px 30px;
-    background-color: #c11325;
+    background-color: #A98054;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
@@ -528,7 +530,7 @@ header .ham-burger.active span:nth-child(2){
 
 /*Class Schedule Section*/
 .schedule{
-	padding:80px 0px;
+	padding:0px 0px;
 	font-size: 30px;
 }
 
@@ -587,7 +589,7 @@ header .ham-burger.active span:nth-child(2){
 	background-color: #444444;
 }
 .schedule .content .timing .table tr:nth-child(1) td.day{
-	background-color: #c11325;
+	background-color: #A98054;
 }
 .schedule .content .timing .table tr td.day{
 	color:#ffffff;
@@ -696,7 +698,7 @@ header .ham-burger.active span:nth-child(2){
 }
 .price-package .content .box .inner .text .btn{
     padding: 8px 30px;
-    background-color: #c11325;
+    background-color: #A98054;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
@@ -765,7 +767,7 @@ header .ham-burger.active span:nth-child(2){
 	height: 45px;
 	padding:0px 50px;
 	border:1px solid transparent;
-	background-color: #c11325;
+	background-color: #A98054;
 	color:#ffffff;
 	font-size: 15px;
 	transition: all .5s ease;
@@ -780,7 +782,7 @@ header .ham-burger.active span:nth-child(2){
 .contact .content .text h2{
 	font-size: 30px;
     font-weight: 500;
-    color: #c11325;
+    color: #A98054;
     padding: 0px 0px 20px;
 }
 .contact .content .text p{
@@ -814,7 +816,7 @@ header .ham-burger.active span:nth-child(2){
 	left:0px;
 	top:0px;
 	font-size: 20px;
-	color:#c11325;
+	color:#A98054;
 }
 .contact .content .text .social {
 	padding-top: 30px;
@@ -824,7 +826,7 @@ header .ham-burger.active span:nth-child(2){
 	width: 40px;
 	line-height: 40px;
 	text-align: center;
-	background-color: #c11325;
+	background-color: #A98054;
     text-decoration: none;	
     display: inline-block;
     margin-right: 10px;
@@ -906,7 +908,7 @@ header .ham-burger.active span:nth-child(2){
 	flex-wrap: wrap;
 }
 .schedule .content .box{
-flex: 0 0 100%;
+	flex: 0 0 100%;
     max-width: 100%;	
 }
 .start-today .content{
