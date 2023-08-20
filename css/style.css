@@ -425,8 +425,9 @@ header .ham-burger.active span:nth-child(2){
 }
 
 .classes .content .class-items .item .item-img img{
- width: 100%;
- display: block;
+	flex:0 0 50%;
+	width: 100%;
+	display: block;
 }
 .classes .content .class-items .item .item-img .price{
 	position: absolute;
@@ -461,9 +462,9 @@ top:0;
 .classes .content .class-items .item .item-text h4{
 	font-size: 20px;
     margin: 0;
-    padding: 0px 0px 15px;
+    padding: 30vh 0px 15px;
     font-weight: 500;
-    color: #ffffff;
+    color: #000000;
     text-transform: capitalize;
     text-align: left;
 }
@@ -471,7 +472,7 @@ top:0;
 .classes .content .class-items .item .item-text p{
 	font-size: 15px;
     line-height: 20px;
-    color: #ffffff;
+    color: #000000;
     text-align:left;
     margin: 0;
     padding:0 0 20px;
@@ -484,7 +485,7 @@ top:0;
 }
 
 .classes .content .class-items .item .item-text a{
-	color:#ffffff;
+	color:#000000;
 }
 
 /*Start Today Section*/
@@ -521,8 +522,9 @@ top:0;
 	font-size: 15px;
     line-height: 20px;
     color: #000000;
+    text-align:left;
     margin: 0;
-    padding: 0px 0px 20px;
+    padding:0 0 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
